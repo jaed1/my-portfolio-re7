@@ -8,6 +8,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 nav>ul {
@@ -24,6 +26,7 @@ nav li {
 
 nav a {
     text-decoration: none;
+    color: #474747;
 }
 
 .nav-title {
@@ -31,6 +34,7 @@ nav a {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    color: #181818;
 }
 
 .text-primary {
@@ -51,4 +55,23 @@ nav a {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+
+}
+
+/* header related style */
+
+.header {
+    background-color: #fff8f3;
+}
+
+/* banner realated css */
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .portfolio-pic {
+    width: 500px;
+
 }
